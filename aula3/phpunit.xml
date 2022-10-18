@@ -1,0 +1,8 @@
+<?xml version ="1.0" enonding="UTF8"?>
+<phpunit bootstrap="vendor/autoload.php" colors="true">
+  <testsuites>
+    <testsuite name="teste backend">
+      <directory suffix="Test.php">./test/</directory> <!-- Estamo inifmando que todo arquivo de teste terá terminção Test.php no final do nome do arquivo. Além disso as pastas onde ficrá os arquivos será a pasta test-->>
+    </testsuite>
+  </testsuites>
+</phpunit>
