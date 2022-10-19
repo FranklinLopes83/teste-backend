@@ -1,6 +1,4 @@
 <?php
-namespace App;
-
 class Slug{
     private  $texto;
     public function __construct($texto){
