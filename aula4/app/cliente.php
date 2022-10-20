@@ -37,7 +37,7 @@ class Cliente{
     }
 
     public function setPreferencias($valor){
-        $this->setPrefrencias = $valor;
+        $this->preferencias = $valor;
     }
 
     public function getPreferencias(){
